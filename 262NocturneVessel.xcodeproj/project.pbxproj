@@ -3,33 +3,103 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		3053FF713009390A00577EAB /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF2D3009390A00577EAB /* CustomTabBar.swift */; };
+		3053FF723009390A00577EAB /* DepthStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF2E3009390A00577EAB /* DepthStyle.swift */; };
+		3053FF733009390A00577EAB /* DesignCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF2F3009390A00577EAB /* DesignCells.swift */; };
+		3053FF743009390A00577EAB /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF303009390A00577EAB /* SharedComponents.swift */; };
+		3053FF753009390A00577EAB /* DesignToolkitModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF323009390A00577EAB /* DesignToolkitModels.swift */; };
+		3053FF763009390A00577EAB /* FontPairModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF333009390A00577EAB /* FontPairModels.swift */; };
+		3053FF773009390A00577EAB /* DesignToolkitServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF353009390A00577EAB /* DesignToolkitServices.swift */; };
+		3053FF783009390A00577EAB /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF373009390A00577EAB /* AppLink.swift */; };
+		3053FF793009390A00577EAB /* FeedbackHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF383009390A00577EAB /* FeedbackHelper.swift */; };
+		3053FF7A3009390A00577EAB /* NavigationBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF393009390A00577EAB /* NavigationBarStyle.swift */; };
+		3053FF7B3009390A00577EAB /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF3A3009390A00577EAB /* NotificationNames.swift */; };
+		3053FF7C3009390A00577EAB /* TabBarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF3B3009390A00577EAB /* TabBarLayout.swift */; };
+		3053FF7D3009390A00577EAB /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF3C3009390A00577EAB /* ViewModifiers.swift */; };
+		3053FF7E3009390A00577EAB /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF3E3009390A00577EAB /* AppDataStore.swift */; };
+		3053FF7F3009390A00577EAB /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF403009390A00577EAB /* AchievementsView.swift */; };
+		3053FF803009390A00577EAB /* ChecklistHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF423009390A00577EAB /* ChecklistHubView.swift */; };
+		3053FF813009390A00577EAB /* SideBySideCompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF443009390A00577EAB /* SideBySideCompareView.swift */; };
+		3053FF823009390A00577EAB /* ExportPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF463009390A00577EAB /* ExportPanelView.swift */; };
+		3053FF833009390A00577EAB /* FontPairDesignerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF483009390A00577EAB /* FontPairDesignerView.swift */; };
+		3053FF843009390A00577EAB /* FontPairDesignerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF493009390A00577EAB /* FontPairDesignerViewModel.swift */; };
+		3053FF853009390A00577EAB /* FontPairManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF4B3009390A00577EAB /* FontPairManagerView.swift */; };
+		3053FF863009390A00577EAB /* FontPairManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF4C3009390A00577EAB /* FontPairManagerViewModel.swift */; };
+		3053FF873009390A00577EAB /* FontTrendInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF4E3009390A00577EAB /* FontTrendInsightsView.swift */; };
+		3053FF883009390A00577EAB /* FontTrendInsightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF4F3009390A00577EAB /* FontTrendInsightsViewModel.swift */; };
+		3053FF893009390A00577EAB /* HomeComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF513009390A00577EAB /* HomeComponents.swift */; };
+		3053FF8A3009390A00577EAB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF523009390A00577EAB /* MainTabView.swift */; };
+		3053FF8B3009390A00577EAB /* StudioHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF533009390A00577EAB /* StudioHubView.swift */; };
+		3053FF8C3009390A00577EAB /* MoodMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF553009390A00577EAB /* MoodMatchView.swift */; };
+		3053FF8D3009390A00577EAB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF573009390A00577EAB /* OnboardingView.swift */; };
+		3053FF8E3009390A00577EAB /* LayoutCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF593009390A00577EAB /* LayoutCanvasView.swift */; };
+		3053FF8F3009390A00577EAB /* PairWorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF5A3009390A00577EAB /* PairWorkspaceView.swift */; };
+		3053FF903009390A00577EAB /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF5C3009390A00577EAB /* ProjectsView.swift */; };
+		3053FF913009390A00577EAB /* RoleLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF5E3009390A00577EAB /* RoleLibraryView.swift */; };
+		3053FF923009390A00577EAB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF603009390A00577EAB /* SettingsView.swift */; };
+		3053FF933009390A00577EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF663009390A00577EAB /* AppDelegate.swift */; };
+		3053FF943009390A00577EAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF683009390A00577EAB /* ContentView.swift */; };
+		3053FF953009390A00577EAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF6E3009390A00577EAB /* SceneDelegate.swift */; };
+		3053FF963009390A00577EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3053FF6F3009390A00577EAB /* ViewController.swift */; };
+		3053FF973009390A00577EAB /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 3053FF643009390A00577EAB /* privacy_policy.md */; };
+		3053FF983009390A00577EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3053FF673009390A00577EAB /* Assets.xcassets */; };
+		3053FF9A3009390A00577EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3053FF6B3009390A00577EAB /* LaunchScreen.storyboard */; };
+		3053FF9B3009390A00577EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3053FF6D3009390A00577EAB /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3053FD853009240500577EAB /* 262NocturneVessel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 262NocturneVessel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3053FF2D3009390A00577EAB /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		3053FF2E3009390A00577EAB /* DepthStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthStyle.swift; sourceTree = "<group>"; };
+		3053FF2F3009390A00577EAB /* DesignCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCells.swift; sourceTree = "<group>"; };
+		3053FF303009390A00577EAB /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		3053FF323009390A00577EAB /* DesignToolkitModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignToolkitModels.swift; sourceTree = "<group>"; };
+		3053FF333009390A00577EAB /* FontPairModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPairModels.swift; sourceTree = "<group>"; };
+		3053FF353009390A00577EAB /* DesignToolkitServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignToolkitServices.swift; sourceTree = "<group>"; };
+		3053FF373009390A00577EAB /* AppLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLink.swift; sourceTree = "<group>"; };
+		3053FF383009390A00577EAB /* FeedbackHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackHelper.swift; sourceTree = "<group>"; };
+		3053FF393009390A00577EAB /* NavigationBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarStyle.swift; sourceTree = "<group>"; };
+		3053FF3A3009390A00577EAB /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		3053FF3B3009390A00577EAB /* TabBarLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarLayout.swift; sourceTree = "<group>"; };
+		3053FF3C3009390A00577EAB /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		3053FF3E3009390A00577EAB /* AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		3053FF403009390A00577EAB /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		3053FF423009390A00577EAB /* ChecklistHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistHubView.swift; sourceTree = "<group>"; };
+		3053FF443009390A00577EAB /* SideBySideCompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBySideCompareView.swift; sourceTree = "<group>"; };
+		3053FF463009390A00577EAB /* ExportPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportPanelView.swift; sourceTree = "<group>"; };
+		3053FF483009390A00577EAB /* FontPairDesignerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPairDesignerView.swift; sourceTree = "<group>"; };
+		3053FF493009390A00577EAB /* FontPairDesignerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPairDesignerViewModel.swift; sourceTree = "<group>"; };
+		3053FF4B3009390A00577EAB /* FontPairManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPairManagerView.swift; sourceTree = "<group>"; };
+		3053FF4C3009390A00577EAB /* FontPairManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPairManagerViewModel.swift; sourceTree = "<group>"; };
+		3053FF4E3009390A00577EAB /* FontTrendInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTrendInsightsView.swift; sourceTree = "<group>"; };
+		3053FF4F3009390A00577EAB /* FontTrendInsightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTrendInsightsViewModel.swift; sourceTree = "<group>"; };
+		3053FF513009390A00577EAB /* HomeComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeComponents.swift; sourceTree = "<group>"; };
+		3053FF523009390A00577EAB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3053FF533009390A00577EAB /* StudioHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioHubView.swift; sourceTree = "<group>"; };
+		3053FF553009390A00577EAB /* MoodMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodMatchView.swift; sourceTree = "<group>"; };
+		3053FF573009390A00577EAB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3053FF593009390A00577EAB /* LayoutCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutCanvasView.swift; sourceTree = "<group>"; };
+		3053FF5A3009390A00577EAB /* PairWorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairWorkspaceView.swift; sourceTree = "<group>"; };
+		3053FF5C3009390A00577EAB /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		3053FF5E3009390A00577EAB /* RoleLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleLibraryView.swift; sourceTree = "<group>"; };
+		3053FF603009390A00577EAB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3053FF643009390A00577EAB /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		3053FF663009390A00577EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3053FF673009390A00577EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3053FF683009390A00577EAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3053FF693009390A00577EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3053FF6A3009390A00577EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3053FF6C3009390A00577EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3053FF6E3009390A00577EAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3053FF6F3009390A00577EAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FCF6ED71EBC083702350245 /* Pods-262NocturneVessel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-262NocturneVessel.release.xcconfig"; path = "Target Support Files/Pods-262NocturneVessel/Pods-262NocturneVessel.release.xcconfig"; sourceTree = "<group>"; };
+		5EF4AD730FC6855ECDE30F2E /* Pods-262NocturneVessel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-262NocturneVessel.debug.xcconfig"; path = "Target Support Files/Pods-262NocturneVessel/Pods-262NocturneVessel.debug.xcconfig"; sourceTree = "<group>"; };
+		EBB87441A54199039C95EA2C /* Pods_262NocturneVessel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_262NocturneVessel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3053FD973009240600577EAB /* Exceptions for "262NocturneVessel" folder in "262NocturneVessel" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 3053FD843009240500577EAB /* 262NocturneVessel */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3053FD873009240500577EAB /* 262NocturneVessel */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				3053FD973009240600577EAB /* Exceptions for "262NocturneVessel" folder in "262NocturneVessel" target */,
-			);
-			path = 262NocturneVessel;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3053FD823009240500577EAB /* Frameworks */ = {
@@ -45,8 +115,10 @@
 		3053FD7C3009240500577EAB = {
 			isa = PBXGroup;
 			children = (
-				3053FD873009240500577EAB /* 262NocturneVessel */,
+				3053FF703009390A00577EAB /* 262NocturneVessel */,
 				3053FD863009240500577EAB /* Products */,
+				8898884AC9F035D238A952A3 /* Pods */,
+				57BD97CB05B8B820108B922A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +130,249 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3053FF313009390A00577EAB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF2D3009390A00577EAB /* CustomTabBar.swift */,
+				3053FF2E3009390A00577EAB /* DepthStyle.swift */,
+				3053FF2F3009390A00577EAB /* DesignCells.swift */,
+				3053FF303009390A00577EAB /* SharedComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3053FF343009390A00577EAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF323009390A00577EAB /* DesignToolkitModels.swift */,
+				3053FF333009390A00577EAB /* FontPairModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3053FF363009390A00577EAB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF353009390A00577EAB /* DesignToolkitServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3053FF3D3009390A00577EAB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF373009390A00577EAB /* AppLink.swift */,
+				3053FF383009390A00577EAB /* FeedbackHelper.swift */,
+				3053FF393009390A00577EAB /* NavigationBarStyle.swift */,
+				3053FF3A3009390A00577EAB /* NotificationNames.swift */,
+				3053FF3B3009390A00577EAB /* TabBarLayout.swift */,
+				3053FF3C3009390A00577EAB /* ViewModifiers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3053FF3F3009390A00577EAB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF313009390A00577EAB /* Components */,
+				3053FF343009390A00577EAB /* Models */,
+				3053FF363009390A00577EAB /* Services */,
+				3053FF3D3009390A00577EAB /* Utilities */,
+				3053FF3E3009390A00577EAB /* AppDataStore.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3053FF413009390A00577EAB /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF403009390A00577EAB /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		3053FF433009390A00577EAB /* Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF423009390A00577EAB /* ChecklistHubView.swift */,
+			);
+			path = Checklist;
+			sourceTree = "<group>";
+		};
+		3053FF453009390A00577EAB /* Compare */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF443009390A00577EAB /* SideBySideCompareView.swift */,
+			);
+			path = Compare;
+			sourceTree = "<group>";
+		};
+		3053FF473009390A00577EAB /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF463009390A00577EAB /* ExportPanelView.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		3053FF4A3009390A00577EAB /* FontPairDesigner */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF483009390A00577EAB /* FontPairDesignerView.swift */,
+				3053FF493009390A00577EAB /* FontPairDesignerViewModel.swift */,
+			);
+			path = FontPairDesigner;
+			sourceTree = "<group>";
+		};
+		3053FF4D3009390A00577EAB /* FontPairManager */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF4B3009390A00577EAB /* FontPairManagerView.swift */,
+				3053FF4C3009390A00577EAB /* FontPairManagerViewModel.swift */,
+			);
+			path = FontPairManager;
+			sourceTree = "<group>";
+		};
+		3053FF503009390A00577EAB /* FontTrendInsights */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF4E3009390A00577EAB /* FontTrendInsightsView.swift */,
+				3053FF4F3009390A00577EAB /* FontTrendInsightsViewModel.swift */,
+			);
+			path = FontTrendInsights;
+			sourceTree = "<group>";
+		};
+		3053FF543009390A00577EAB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF513009390A00577EAB /* HomeComponents.swift */,
+				3053FF523009390A00577EAB /* MainTabView.swift */,
+				3053FF533009390A00577EAB /* StudioHubView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3053FF563009390A00577EAB /* MoodMatch */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF553009390A00577EAB /* MoodMatchView.swift */,
+			);
+			path = MoodMatch;
+			sourceTree = "<group>";
+		};
+		3053FF583009390A00577EAB /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF573009390A00577EAB /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3053FF5B3009390A00577EAB /* PreviewCanvas */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF593009390A00577EAB /* LayoutCanvasView.swift */,
+				3053FF5A3009390A00577EAB /* PairWorkspaceView.swift */,
+			);
+			path = PreviewCanvas;
+			sourceTree = "<group>";
+		};
+		3053FF5D3009390A00577EAB /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF5C3009390A00577EAB /* ProjectsView.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		3053FF5F3009390A00577EAB /* RoleLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF5E3009390A00577EAB /* RoleLibraryView.swift */,
+			);
+			path = RoleLibrary;
+			sourceTree = "<group>";
+		};
+		3053FF613009390A00577EAB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF603009390A00577EAB /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3053FF623009390A00577EAB /* Studio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Studio;
+			sourceTree = "<group>";
+		};
+		3053FF633009390A00577EAB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF413009390A00577EAB /* Achievements */,
+				3053FF433009390A00577EAB /* Checklist */,
+				3053FF453009390A00577EAB /* Compare */,
+				3053FF473009390A00577EAB /* Export */,
+				3053FF4A3009390A00577EAB /* FontPairDesigner */,
+				3053FF4D3009390A00577EAB /* FontPairManager */,
+				3053FF503009390A00577EAB /* FontTrendInsights */,
+				3053FF543009390A00577EAB /* Main */,
+				3053FF563009390A00577EAB /* MoodMatch */,
+				3053FF583009390A00577EAB /* Onboarding */,
+				3053FF5B3009390A00577EAB /* PreviewCanvas */,
+				3053FF5D3009390A00577EAB /* Projects */,
+				3053FF5F3009390A00577EAB /* RoleLibrary */,
+				3053FF613009390A00577EAB /* Settings */,
+				3053FF623009390A00577EAB /* Studio */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3053FF653009390A00577EAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF643009390A00577EAB /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3053FF703009390A00577EAB /* 262NocturneVessel */ = {
+			isa = PBXGroup;
+			children = (
+				3053FF3F3009390A00577EAB /* Core */,
+				3053FF633009390A00577EAB /* Features */,
+				3053FF653009390A00577EAB /* Resources */,
+				3053FF663009390A00577EAB /* AppDelegate.swift */,
+				3053FF673009390A00577EAB /* Assets.xcassets */,
+				3053FF683009390A00577EAB /* ContentView.swift */,
+				3053FF693009390A00577EAB /* Info.plist */,
+				3053FF6B3009390A00577EAB /* LaunchScreen.storyboard */,
+				3053FF6D3009390A00577EAB /* Main.storyboard */,
+				3053FF6E3009390A00577EAB /* SceneDelegate.swift */,
+				3053FF6F3009390A00577EAB /* ViewController.swift */,
+			);
+			path = 262NocturneVessel;
+			sourceTree = "<group>";
+		};
+		57BD97CB05B8B820108B922A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBB87441A54199039C95EA2C /* Pods_262NocturneVessel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8898884AC9F035D238A952A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EF4AD730FC6855ECDE30F2E /* Pods-262NocturneVessel.debug.xcconfig */,
+				3FCF6ED71EBC083702350245 /* Pods-262NocturneVessel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +380,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3053FD983009240600577EAB /* Build configuration list for PBXNativeTarget "262NocturneVessel" */;
 			buildPhases = (
+				C25E66C5122C094248FF112A /* [CP] Check Pods Manifest.lock */,
 				3053FD813009240500577EAB /* Sources */,
 				3053FD823009240500577EAB /* Frameworks */,
 				3053FD833009240500577EAB /* Resources */,
@@ -73,12 +389,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				3053FD873009240500577EAB /* 262NocturneVessel */,
-			);
 			name = 262NocturneVessel;
-			packageProductDependencies = (
-			);
 			productName = 262NocturneVessel;
 			productReference = 3053FD853009240500577EAB /* 262NocturneVessel.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +410,7 @@
 				};
 			};
 			buildConfigurationList = 3053FD803009240500577EAB /* Build configuration list for PBXProject "262NocturneVessel" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +418,6 @@
 				Base,
 			);
 			mainGroup = 3053FD7C3009240500577EAB;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 3053FD863009240500577EAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +432,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3053FF973009390A00577EAB /* privacy_policy.md in Resources */,
+				3053FF983009390A00577EAB /* Assets.xcassets in Resources */,
+				3053FF9A3009390A00577EAB /* LaunchScreen.storyboard in Resources */,
+				3053FF9B3009390A00577EAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C25E66C5122C094248FF112A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-262NocturneVessel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3053FD813009240500577EAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3053FF713009390A00577EAB /* CustomTabBar.swift in Sources */,
+				3053FF723009390A00577EAB /* DepthStyle.swift in Sources */,
+				3053FF733009390A00577EAB /* DesignCells.swift in Sources */,
+				3053FF743009390A00577EAB /* SharedComponents.swift in Sources */,
+				3053FF753009390A00577EAB /* DesignToolkitModels.swift in Sources */,
+				3053FF763009390A00577EAB /* FontPairModels.swift in Sources */,
+				3053FF773009390A00577EAB /* DesignToolkitServices.swift in Sources */,
+				3053FF783009390A00577EAB /* AppLink.swift in Sources */,
+				3053FF793009390A00577EAB /* FeedbackHelper.swift in Sources */,
+				3053FF7A3009390A00577EAB /* NavigationBarStyle.swift in Sources */,
+				3053FF7B3009390A00577EAB /* NotificationNames.swift in Sources */,
+				3053FF7C3009390A00577EAB /* TabBarLayout.swift in Sources */,
+				3053FF7D3009390A00577EAB /* ViewModifiers.swift in Sources */,
+				3053FF7E3009390A00577EAB /* AppDataStore.swift in Sources */,
+				3053FF7F3009390A00577EAB /* AchievementsView.swift in Sources */,
+				3053FF803009390A00577EAB /* ChecklistHubView.swift in Sources */,
+				3053FF813009390A00577EAB /* SideBySideCompareView.swift in Sources */,
+				3053FF823009390A00577EAB /* ExportPanelView.swift in Sources */,
+				3053FF833009390A00577EAB /* FontPairDesignerView.swift in Sources */,
+				3053FF843009390A00577EAB /* FontPairDesignerViewModel.swift in Sources */,
+				3053FF853009390A00577EAB /* FontPairManagerView.swift in Sources */,
+				3053FF863009390A00577EAB /* FontPairManagerViewModel.swift in Sources */,
+				3053FF873009390A00577EAB /* FontTrendInsightsView.swift in Sources */,
+				3053FF883009390A00577EAB /* FontTrendInsightsViewModel.swift in Sources */,
+				3053FF893009390A00577EAB /* HomeComponents.swift in Sources */,
+				3053FF8A3009390A00577EAB /* MainTabView.swift in Sources */,
+				3053FF8B3009390A00577EAB /* StudioHubView.swift in Sources */,
+				3053FF8C3009390A00577EAB /* MoodMatchView.swift in Sources */,
+				3053FF8D3009390A00577EAB /* OnboardingView.swift in Sources */,
+				3053FF8E3009390A00577EAB /* LayoutCanvasView.swift in Sources */,
+				3053FF8F3009390A00577EAB /* PairWorkspaceView.swift in Sources */,
+				3053FF903009390A00577EAB /* ProjectsView.swift in Sources */,
+				3053FF913009390A00577EAB /* RoleLibraryView.swift in Sources */,
+				3053FF923009390A00577EAB /* SettingsView.swift in Sources */,
+				3053FF933009390A00577EAB /* AppDelegate.swift in Sources */,
+				3053FF943009390A00577EAB /* ContentView.swift in Sources */,
+				3053FF953009390A00577EAB /* SceneDelegate.swift in Sources */,
+				3053FF963009390A00577EAB /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		3053FF6B3009390A00577EAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3053FF6A3009390A00577EAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3053FF6D3009390A00577EAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3053FF6C3009390A00577EAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		3053FD993009240600577EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF4AD730FC6855ECDE30F2E /* Pods-262NocturneVessel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +544,40 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 262NocturneVessel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nocturne Vessel";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-62NocturneVessel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jul.n0ct4rn3v3ss3l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3053FD9A3009240600577EAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCF6ED71EBC083702350245 /* Pods-262NocturneVessel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +585,34 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 262NocturneVessel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nocturne Vessel";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-62NocturneVessel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jul.n0ct4rn3v3ss3l;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
